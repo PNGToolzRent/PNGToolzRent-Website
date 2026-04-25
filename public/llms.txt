@@ -1,0 +1,27 @@
+# PNG Toolz
+> Papua New Guinea's platform for renting and buying professional mobile phone servicing software tools.
+
+PNG Toolz provides technicians across Papua New Guinea with access to professional-grade software tools used for mobile phone unlocking, firmware repair, IMEI restoration and device customization — available for hourly rental or subscription purchase.
+
+## Services
+- Tool rentals: 6-hour, 12-hour, and 24-hour sessions
+- Subscription purchases for permanent tool access
+- Supported tool brands: Chimera Pro, UFi Box, Octoplus Pro
+- Supported device brands: Samsung, Huawei, Oppo, Vivo, Xiaomi, LG, Sony, Motorola
+
+## How It Works
+1. Browse available tools at pngtoolz.com/tools
+2. Create a free account
+3. Select rental duration or buy a subscription
+4. Pay via local PNG payment methods (BSP, Kina Bank, MoniPlus)
+5. Receive access credentials in your dashboard once payment is confirmed
+
+## Location & Coverage
+- Based in Papua New Guinea (Port Moresby, NCD)
+- Serving technicians across all PNG provinces
+- All prices in Papua New Guinea Kina (PGK)
+- Payment via BSP Bank Transfer, Kina Bank Transfer, MoniPlus Mobile Money
+
+## Contact
+- Website: https://pngtoolz.com
+- Email: admin@pngtoolz.com

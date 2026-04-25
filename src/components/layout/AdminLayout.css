@@ -1,0 +1,7 @@
+.sidebar--admin {
+  background: var(--bg-primary);
+}
+
+.sidebar-layout--admin .sidebar-layout__main {
+  background: var(--bg-secondary);
+}

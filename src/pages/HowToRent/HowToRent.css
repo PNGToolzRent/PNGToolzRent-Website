@@ -1,0 +1,176 @@
+.how-to-rent__lead {
+  font-size: var(--text-xl);
+  margin-top: var(--space-4);
+}
+
+/* Consistent section titles across all blocks */
+.how-to-rent__section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-4);
+  border-bottom: var(--border-width) solid var(--border-primary);
+}
+
+/* All sections use same vertical rhythm */
+.how-to-rent .section {
+  padding: var(--space-12) 0;
+  border-bottom: var(--border-width) solid var(--border-primary);
+}
+
+.how-to-rent .section:last-child {
+  border-bottom: none;
+}
+
+/* Process steps */
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.process-step {
+  display: flex;
+  gap: var(--space-6);
+  padding: var(--space-5) var(--space-6);
+  border: var(--border-width) solid var(--border-primary);
+  border-bottom: none;
+}
+
+.process-step:last-child { border-bottom: var(--border-width) solid var(--border-primary); }
+
+.process-step__num {
+  font-family: var(--font-mono);
+  font-size: var(--text-xl);
+  color: var(--accent-primary);
+  flex-shrink: 0;
+  width: 40px;
+  line-height: 1.4;
+}
+
+.process-step__body h4 {
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-2);
+}
+
+.process-step__body p {
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* Payment methods — full (unused on public pages now) */
+.payment-methods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-1);
+}
+
+.payment-method {
+  padding: var(--space-6);
+  border: var(--border-width) solid var(--border-primary);
+}
+
+.payment-method__name {
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-4);
+  color: var(--accent-primary);
+}
+
+.payment-method__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: var(--space-3);
+}
+
+.payment-method__label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color: var(--text-muted);
+}
+
+.payment-method__value {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+}
+
+.payment-method__instructions {
+  font-size: var(--text-xs);
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: var(--border-width) solid var(--border-secondary);
+  color: var(--text-muted);
+}
+
+/* Payment methods — public view (names only) */
+.payment-methods--public {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.payment-method--public {
+  padding: var(--space-3) var(--space-5);
+  border: var(--border-width) solid var(--border-primary);
+  background: var(--bg-elevated);
+  display: flex;
+  align-items: center;
+}
+
+.payment-method--public .payment-method__name {
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  margin-bottom: 0;
+}
+
+.how-to-rent__payment-note {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  border: var(--border-width) solid var(--border-secondary);
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-5);
+  line-height: var(--leading-relaxed);
+}
+
+/* FAQ */
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.faq__item {
+  padding: var(--space-5) var(--space-6);
+  border: var(--border-width) solid var(--border-primary);
+  border-bottom: none;
+}
+
+.faq__item:last-child { border-bottom: var(--border-width) solid var(--border-primary); }
+
+.faq__question {
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-2);
+}
+
+.faq__answer {
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+@media (max-width: 768px) {
+  .payment-methods { grid-template-columns: 1fr; }
+}
